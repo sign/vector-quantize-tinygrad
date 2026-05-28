@@ -49,7 +49,7 @@ See [tests/test_lfq.py](tests/test_lfq.py) for the exact correctness checks and 
 
 ## Current Performance
 
-Forward/backward CUDA timings from the benchmark in [tests/test_lfq.py](tests/test_lfq.py):
+Forward/backward CUDA timings from the benchmark in [tests/test_lfq.py](tests/test_lfq.py) on a DGX Spark:
 
 | config | torch fwd/bwd | tinygrad fwd/bwd |
 | --- | ---: | ---: |
